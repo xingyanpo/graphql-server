@@ -38,7 +38,7 @@ app.use('/graphql', graphqlHttp({
   graphiql: true 
 }))
 
-app.listen(8000, function () {
-  console.log('127.0.0.1:8000')
+app.listen(3000, function () {
+  console.log('127.0.0.1:3000')
 }
   )
